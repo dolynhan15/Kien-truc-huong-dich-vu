@@ -9,10 +9,16 @@ namespace _14_09_21CodeFirst
     [Table("SinhVien")] //get name here not table's name in mySql
     public class LopSH
     {
+        //De tao LopSH truoc -> xay ham dung
+        public LopSH() 
+        {
+            SVs = new HashSet<SV>();
+        }
+
         [Key]
-        public string MSSV { get; set; }
-        public string Name { get; set; }
-        public string Age { get; set; }
+        public int ID_lop { get; set; }
+        public string NameLop { get; set; }
+        public virtual ICollection<SV> SVs
         
     }
 }

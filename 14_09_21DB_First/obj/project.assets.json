@@ -795,11 +795,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DOLYNHAN\\SCHOOL\\NAM04_01\\14_09_21\\14_09_21.csproj",
+      "projectUniqueName": "D:\\DOLYNHAN\\SCHOOL\\NAM04_01\\KIEN_TRUC_HUONG_DV\\CODE\\14_09_21DB_First\\14_09_21.csproj",
       "projectName": "14_09_21",
-      "projectPath": "D:\\DOLYNHAN\\SCHOOL\\NAM04_01\\14_09_21\\14_09_21.csproj",
+      "projectPath": "D:\\DOLYNHAN\\SCHOOL\\NAM04_01\\KIEN_TRUC_HUONG_DV\\CODE\\14_09_21DB_First\\14_09_21.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\DOLYNHAN\\SCHOOL\\NAM04_01\\14_09_21\\obj\\",
+      "outputPath": "D:\\DOLYNHAN\\SCHOOL\\NAM04_01\\KIEN_TRUC_HUONG_DV\\CODE\\14_09_21DB_First\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"

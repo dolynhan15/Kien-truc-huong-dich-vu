@@ -46,15 +46,20 @@ namespace _14_09_21
             // db.SaveChanges();
 
             //---DELETE---
-            int E_MSSV = 102180192;
-            SinhVien e = db.SinhViens.Find(E_MSSV);
-            e.Name = "The Tue";
-            db.SaveChanges();
-            // foreach (SinhVien i in db.SinhViens)
+            // int E_MSSV = 102180192;
+            // SinhVien e = db.SinhViens.Find(E_MSSV);
+            // e.Name = "The Tue";
+            // db.SaveChanges();
+            // // foreach (SinhVien i in db.SinhViens)
+            // // {
+            // //     Console.WriteLine(i.ToString());
+            // // }
+            // foreach (var i in db.SinhViens.ToList())
             // {
             //     Console.WriteLine(i.ToString());
             // }
-            foreach (var i in db.SinhViens.ToList())
+
+            foreach (var i in db.SinhViens) 
             {
                 Console.WriteLine(i.ToString());
             }

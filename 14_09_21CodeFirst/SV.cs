@@ -9,13 +9,14 @@ namespace _14_09_21CodeFirst
     [Table("SinhVien")] //get name here not table's name in mySql
     public class SV
     {
-        [Key]
+        [Key][Required][StringLen(50)]
         public string MSSV { get; set; }
-        public string Name { get; set; }
+        public string NameSV { get; set; }
         public int Age { get; set; }
+        public int ID_lop { get; set; }
         
-        [ForeignKey("IDlop")]
-        public int IDlop { get; set; }
+        [ForeignKey("ID_lop")]
+        public virtual LopSH LopSH {get; set}
         
     }
 }
